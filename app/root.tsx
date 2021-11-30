@@ -125,7 +125,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <header className="remix-app__header">
         <div className="container remix-app__header-content">
           <Link to="/" title="Remix" className="remix-app__header-home-link">
-            <RemixLogo />
+            Testing Remix
           </Link>
           <nav aria-label="Main navigation" className="remix-app__header-nav">
             <ul>
@@ -136,7 +136,7 @@ function Layout({ children }: { children: React.ReactNode }) {
                 <a href="https://remix.run/docs">Remix Docs</a>
               </li>
               <li>
-                <a href="https://github.com/remix-run/remix">GitHub</a>
+                <a href="https://github.com/JulianGonzalezO/remix-heroku">GitHub</a>
               </li>
             </ul>
           </nav>
